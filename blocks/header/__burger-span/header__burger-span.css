@@ -1,0 +1,14 @@
+@media screen and (min-width:616px){
+  .header__burger-span {
+    display: none;
+  }
+}
+@media screen and (max-width:615px){
+  .header__burger-span {
+    width: 22px;
+    height: 3px;
+    background-color: #151515;
+
+  }
+}
+

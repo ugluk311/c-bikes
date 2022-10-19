@@ -1,7 +1,9 @@
 .body {
-  margin: 0;
+  font-family: 'Inter', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #151515;
+  background: #F4F4F4;
 }
-
-
 
 

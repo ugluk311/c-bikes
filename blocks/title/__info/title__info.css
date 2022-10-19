@@ -1,0 +1,16 @@
+.title__info {
+  grid-area: info;
+  padding: 168px 0 0 0;
+  padding-top: calc(30px + (168 - 30) * ((100vw - 720px) / (1440 - 720)));
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+}
+
+@media (max-width:615px){
+  .title__info {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.title__image {
+  object-fit: cover;
+  grid-area: image;
+  aspect-ratio: 0.73;
+  max-width: 100%;
+}
+
+@media (max-width:768px){
+  .title__image {
+    padding-top: 40px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+}

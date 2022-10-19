@@ -1,0 +1,12 @@
+.header__menu {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  height: 74px;
+  }
+
+  @media (max-width:615px){
+    .header__menu {
+      align-items: center;
+      }
+  }

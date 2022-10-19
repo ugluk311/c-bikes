@@ -1,0 +1,45 @@
+.header__link {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	transition: opacity 0.7s ease;
+}
+
+@media screen and (max-width:715px){
+	.header__link {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width:615px) {
+  .header__link {
+    font-size: 20px;
+    text-transform: uppercase;
+
+  }
+}
+
+.header__link:hover {
+	transition: opacity 0.7s ease;
+	opacity: .7;
+}
+
+@media screen and (max-width:615px) {
+  .header__link:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+}
+
+.header__link:not(:last-child) {
+	margin: 0 34px 0 0;
+}
+
+
+@media screen and (max-width:615px) {
+  .header__link:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}

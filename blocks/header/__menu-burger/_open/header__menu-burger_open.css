@@ -1,0 +1,36 @@
+@media screen and (min-width:616px){
+  .header__menu-burger_open {
+    display: none;
+  }
+}
+
+@media screen and (max-width:615px){
+.header__menu-burger_open {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__menu-burger_open::before {
+  content: '';
+  width: 22px;
+  height: 3px;
+  background-color: #151515;
+}
+
+.header__menu-burger_open::after {
+  content: '';
+  width: 22px;
+  height: 3px;
+  background-color: #151515;
+}
+
+@media screen and (max-width:615px){
+  .header:target .header__menu-burger_open {
+    display: none;
+  }
+}
+}

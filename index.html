@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>триатлон<title>
+  <title>триатлон</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body class="body">
-  <header class="header">
-		<nav class="header__menu">
-			<ul class="header__links">
-				<li class="header__link link">
-					<a class="link" href="#">Покрытия и градиенты</a>
-				</li>
-				<li class="header__link">
-					<a class="link" href="#">Велосипеды</a>
-				</li>
-				<li class="header__link">
-					<a class="link" href="#">Тренировки</a>
-				</li>
+  <header id="open" class="header">
+    <div id="close" class="header__container">
+      <div class="header__menu">
+        <a href="#open" class="header__menu-burger header__menu-burger_open"><span class="header__burger-span"></span></a>
+        <a href="#close" class="header__menu-burger header__menu-burger_close"></a>
+        <nav class="header__menu-body">
+          <ul class="header__links">
+            <li class="header__link link">
+              <a class="link" href="#">Покрытия и градиенты</a>
+            </li>
+            <li class="header__link link">
+              <a class="link" href="#">Велосипеды</a>
+            </li>
+            <li class="header__link link">
+              <a class="link" href="#">Тренировки</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <section class="title">
+				<h1 class="title__heading">Шоссе,&nbsp;ТТ и&nbsp;Грэвел</h1>
+        <img class="title__image" src="./image/section-title.jpg" alt="Отличный вид на горы!!!">
+				<p class="title__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
+					маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
+				<a href="#" class="title__button">Подробнее</a>
+				<p class="title__info">Cannondale Systemsix<img class="title__info-line" src="/image/Color BGsection-title-line.svg" alt=""></p>
+		</section>
+  </main>
+  <footer class="footer">
 
-			</ul>
-		</nav>
-	</header>
-    <main class="content">
-
-    </main>
-    <footer class="footer">
-
-    </footer>
+  </footer>
 </body>
+
 </html>

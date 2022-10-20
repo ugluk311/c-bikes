@@ -1,0 +1,20 @@
+.form-subscription__input {
+  box-sizing: border-box;
+  display: block;
+  min-height: 50px;
+  width: 100%;
+  padding: 11px 20px;
+  background-color: transparent;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.form-subscription__input::placeholder {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  opacity: .7;
+}

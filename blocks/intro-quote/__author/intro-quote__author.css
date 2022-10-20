@@ -1,0 +1,12 @@
+.intro-quote__author {
+  width: 100%;
+}
+
+@media (max-width:1024px){
+  .intro-quote__author {
+    padding: 30px 0 0 0;
+  }
+}
+
+
+

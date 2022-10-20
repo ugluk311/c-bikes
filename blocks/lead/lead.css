@@ -1,0 +1,35 @@
+.lead {
+  max-width: 100%;
+  position: relative;
+  margin: 74px 0 0 0;
+	padding: 16px 0 0 0;
+	display: grid;
+  grid-template-columns: 1fr 46.3%;
+  grid-auto-rows: auto;
+  grid-template-areas:
+  'heading image'
+  'subtitle image'
+  'button image'
+  'stamp image'
+  '. image';
+  justify-items: start;
+}
+
+@media(max-width:768px){
+  .lead {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+  'heading'
+  'image'
+  'subtitle'
+  'button'
+  'stamp';
+  padding-top: 0;
+  }
+}
+
+@media (max-width:615px){
+  .lead {
+    border-bottom: 2px solid #D7D4D4;
+  }
+}

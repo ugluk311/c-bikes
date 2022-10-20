@@ -1,0 +1,29 @@
+.lead__stamp {
+  position: relative;
+  grid-area: stamp;
+  margin: 168px 0 0 0;
+  /* padding-top: calc(30px + (168 - 30) * ((100vw - 720px) / (1440 - 720))); */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  min-height: 18px;
+  display: flex;
+  align-items: end;
+}
+
+.lead__stamp:after {
+  content: '';
+  position: absolute;
+  left:230px;
+  bottom: 5px;
+  background-color: #000;
+  width: 132px;
+  height: 2px;
+}
+
+@media (max-width:615px){
+  .lead__stamp {
+    display: none;
+  }
+}

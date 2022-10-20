@@ -1,0 +1,12 @@
+.slider-road {
+  position: relative;  
+  padding: 60px 0 160px 0;
+  overflow: hidden;
+  border: 2px solid #000;
+}
+
+@media (max-width:768px){
+  .slider-road {
+    padding-top: 40px;
+  }
+}

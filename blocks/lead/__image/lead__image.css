@@ -1,0 +1,13 @@
+.lead__image {
+  object-fit: cover;
+  grid-area: image;
+  max-width: 100%;
+}
+
+@media (max-width:768px){
+  .lead__image {
+    padding-top: 40px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+}

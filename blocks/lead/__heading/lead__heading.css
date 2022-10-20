@@ -1,0 +1,19 @@
+.lead__heading {
+  margin: 0;
+  max-width: 310px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.09;
+  letter-spacing: -0.5px;
+  padding: 66px 0 0 0;
+  grid-area: heading;
+}
+
+@media (max-width:768px){
+  .lead__heading {
+    font-size: calc(32px + (55 - 32) * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(44px + (64 - 44) * ((100vw - 320px) / (768 - 320)));
+    max-width: 150px;
+  }
+}

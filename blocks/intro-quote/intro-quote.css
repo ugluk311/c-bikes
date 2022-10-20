@@ -1,0 +1,24 @@
+.intro-quote {
+  display: flex;
+  padding: 123px 0 60px 0;
+  column-gap: 80px;
+}
+
+@media (max-width:1024px){
+  .intro-quote {
+    column-gap: 30px;
+  }
+}
+
+@media (max-width:768px){
+  .intro-quote {
+    column-gap: 30px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:615px){
+  .intro-quote {
+    padding-top: 20px;
+  }
+}

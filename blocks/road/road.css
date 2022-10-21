@@ -1,0 +1,19 @@
+.road {
+  padding: calc(60 / 1440 *100%) 0 calc(60 / 1440 *100%) calc(120 / 1440 *100%);
+}
+
+@media screen and (max-width: 767px) {
+
+  .road {
+    padding: 40px 18px 60px;
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+

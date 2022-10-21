@@ -1,0 +1,21 @@
+.burger {
+  display: none;
+  padding: 0;
+  border: none;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  background-image: url('../../images/icon-burger.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media (max-width:767px){
+
+  .burger {
+    display: block;
+  }
+
+}

@@ -1,0 +1,13 @@
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width:767px){
+
+  .intro__text {
+   gap: 40px;
+  }
+
+}

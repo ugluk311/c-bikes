@@ -1,0 +1,16 @@
+.road__image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+
+@media screen and (max-width: 767px) {
+  
+
+  .road__image:not(:first-child) {
+    display: none;
+  }
+
+}

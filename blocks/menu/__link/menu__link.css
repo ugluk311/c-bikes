@@ -1,0 +1,19 @@
+.menu__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #151515;
+  text-decoration: none;
+  transition: opacity .4s ease;
+}
+
+.menu__link:hover, .menu__link:focus {
+  opacity: .7;
+}
+
+.menu__link:active {
+  opacity: 1;
+}
+
+

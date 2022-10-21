@@ -1,12 +1,22 @@
 .header__menu {
-  position: relative;
   display: flex;
-  justify-content: end;
-  height: 74px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 34px;
   }
 
-  @media (max-width:615px){
-    .header__menu {
-      align-items: center;
-      }
+@media (max-width:767px){
+
+  .header__menu {
+    display: none;
   }
+
+}
+
+
+
+
+
+
+

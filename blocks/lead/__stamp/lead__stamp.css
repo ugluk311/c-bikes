@@ -1,40 +1,32 @@
 .lead__stamp {
   position: relative;
   grid-area: stamp;
-  margin: 168px 0 0 0;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
   min-height: 18px;
-  display: flex;
-  align-items: end;
+  display: inline-block;
+  margin: 0;
 }
 
 .lead__stamp:after {
   content: '';
   position: absolute;
-  left:230px;
-  bottom: 5px;
+  top: 50%;
+  left: 226px;
+  transform: translateY(-50%);
   background: #D7D4D4;
   width: 132px;
   height: 2px;
 }
 
-@media (max-width:1024px){
-  .lead__stamp {
-    margin-top: calc(10px + (100 - 10) * ((100vw - 320px) / (1440 - 320)));
-  }
-}
 
-@media (max-width:768px){
-  .lead__stamp {
-    padding-top: 20px;
-  }
-}
+@media (max-width:767px){
 
-@media (max-width:615px){
   .lead__stamp {
     display: none;
+
   }
 }
+

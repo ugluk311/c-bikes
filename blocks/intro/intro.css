@@ -1,0 +1,20 @@
+.intro {
+  padding: calc(120 / 1440 *100%) calc(120 / 1440 *100%)  calc(60 / 1440 *100%);
+  display: grid;
+  gap: 0 calc(80 / 1200 *100%);
+  grid-template-columns: calc(650 / 1200 *100%) 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media (max-width:767px){
+
+  .intro {
+    display: block;
+    padding: 40px 18px;
+  }
+
+}
+
+
+
+

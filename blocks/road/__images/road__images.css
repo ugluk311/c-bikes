@@ -1,0 +1,16 @@
+.road__images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  max-height: min-content;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .road__images {
+    display: block;
+  }
+
+}

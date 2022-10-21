@@ -1,0 +1,10 @@
+.header__wrap{
+  box-sizing: border-box;
+  padding: 28px calc(120 / 1440 *100%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1440px;
+  background-color: #F4F4F4;
+}

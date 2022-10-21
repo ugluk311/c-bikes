@@ -1,0 +1,18 @@
+.intro__job {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
+}
+
+@media (max-width:767px){
+
+  .intro__job {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+}

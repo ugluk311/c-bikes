@@ -1,11 +1,13 @@
 .lead__heading {
   grid-area: heading;
   margin-bottom: 50px;
+  margin-top: 60px;
   max-width: 460px;
 }
 
 @media (max-width:767px){
   .lead__heading {
     margin-bottom: 40px;
+    margin-top: 0;
   }
 }

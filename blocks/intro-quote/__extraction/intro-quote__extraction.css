@@ -8,3 +8,9 @@
   margin: 0;
 }
 
+@media (max-width:768px){
+  .intro-quote__extraction {
+    font-size: calc(23px + (34 - 23) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+

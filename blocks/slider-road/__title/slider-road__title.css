@@ -4,4 +4,12 @@
   font-size: 55px;
   line-height: 1.09;
   letter-spacing: -0.5px;
+  margin: 0;
+}
+
+@media (max-width:768px){
+  .slider-road__title {
+    grid-area: title;
+    font-size: calc(32px + (55 - 32) * ((100vw - 320px) / (1172 - 320)));
+  }
 }

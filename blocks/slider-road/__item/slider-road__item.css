@@ -1,3 +1,18 @@
 .slider-road__item {
-  max-width: 650px;  
+  position: relative;
+  max-width: 650px;
+  transition: all 1s ease;
+}
+
+#arrow-left:checked ~ .slider-road__item {
+  margin-left: 0;
+}
+#arrow-left:checked ~ .slider-road__item {
+  transform: translate(-213%, 0);
+}
+
+@media (max-width:768px){
+  #arrow-left:checked ~ .slider-road__item {
+    transform: translate(-106%, 0);
+  }
 }

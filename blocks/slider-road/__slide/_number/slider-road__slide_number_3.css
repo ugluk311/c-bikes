@@ -1,0 +1,9 @@
+.slider-road__slide_number_3 {
+  object-position: 30px 0;
+}
+
+@media (max-width:768px){
+  .slider-road__slide_number_3 {
+    display: none;
+}
+}

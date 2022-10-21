@@ -1,0 +1,14 @@
+@media (min-width:769px){
+  .slider-road__navigation_top {
+  display: none;
+}
+}
+
+
+@media screen and (max-width:768px){
+  .slider-road__navigation_top {
+    position: absolute;
+    top: 47px;
+    right: 0;
+  }
+}

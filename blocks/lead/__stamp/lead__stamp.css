@@ -2,7 +2,6 @@
   position: relative;
   grid-area: stamp;
   margin: 168px 0 0 0;
-  /* padding-top: calc(30px + (168 - 30) * ((100vw - 720px) / (1440 - 720))); */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -17,9 +16,21 @@
   position: absolute;
   left:230px;
   bottom: 5px;
-  background-color: #000;
+  background: #D7D4D4;
   width: 132px;
   height: 2px;
+}
+
+@media (max-width:1024px){
+  .lead__stamp {
+    margin-top: calc(10px + (100 - 10) * ((100vw - 320px) / (1440 - 320)));
+  }
+}
+
+@media (max-width:768px){
+  .lead__stamp {
+    padding-top: 20px;
+  }
 }
 
 @media (max-width:615px){

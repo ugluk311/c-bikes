@@ -1,0 +1,15 @@
+.bikes__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .bikes__head {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}

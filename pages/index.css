@@ -61,6 +61,28 @@
 @import url('../blocks/form-subscription/__input/form-subscription__input.css');
 
 
+@import url('../blocks/bikes/bikes.css');
+@import url('../blocks/bikes/__head/bikes__head.css');
+@import url('../blocks/bikes/__title/bikes__title.css');
+@import url('../blocks/bikes/__filter/bikes__filter.css');
+@import url('../blocks/bikes/__filter-link/bikes__filter-link.css');
+@import url('../blocks/bikes/__filter-link/_active/bikes__filter-link_active.css');
+@import url('../blocks/bikes/__select/bikes__select.css');
+@import url('../blocks/bikes/__list/bikes__list.css');
+@import url('../blocks/bikes/__list-item/bikes__list-item.css');
+@import url('../blocks/bikes/__link/bikes__link.css');
+@import url('../blocks/bikes/__image-wrap/bikes__image-wrap.css');
+@import url('../blocks/bikes/__image/bikes__image.css');
+@import url('../blocks/bikes/__image-caption/bikes__image-caption.css');
+
+@import url('../blocks/dots/dots.css');
+@import url('../blocks/dots/__link/dots__link.css');
+@import url('../blocks/dots/__link/_active/dots__link_active.css');
+
+
+
+
+
 @import url('../blocks/training/training.css');
 @import url('../blocks/training/__title/training__title.css');
 @import url('../blocks/training/__image/training__image.css');

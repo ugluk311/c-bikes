@@ -1,0 +1,21 @@
+.bikes__select {
+  display: none;
+  min-height: 30px;
+  padding: 8px 12px;
+  background-color: #F4F4F4;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: #151515;
+  border: 1px solid #E3E3E3;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .bikes__select {
+    display: block;
+  }
+
+}

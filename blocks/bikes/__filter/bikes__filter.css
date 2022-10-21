@@ -1,0 +1,16 @@
+.bikes__filter {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .bikes__filter {
+    display: none;
+  }
+
+}

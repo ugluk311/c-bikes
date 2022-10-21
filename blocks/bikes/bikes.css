@@ -1,0 +1,11 @@
+.bikes {
+  padding: calc(60 / 1440 *100%) calc(120 / 1440 *100%);
+}
+
+@media screen and (max-width: 767px) {
+
+  .bikes {
+    padding: 40px 18px;
+  }
+
+}

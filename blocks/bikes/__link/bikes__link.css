@@ -1,0 +1,12 @@
+.bikes__link {
+  display: block;
+  text-decoration: none;
+  transition: opacity .4s ease;
+}
+.bikes__link:hover, .bikes__link:focus {
+  opacity: .7;
+}
+
+.bikes__link:active {
+  opacity: 1;
+}

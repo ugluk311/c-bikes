@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+
+  .bikes__list-item:not(:first-child) {
+    display: none;
+  }
+
+}
+

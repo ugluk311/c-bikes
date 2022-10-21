@@ -1,10 +1,10 @@
 .lead {
   max-width: 100%;
   position: relative;
-  margin: 74px 0 0 0;
+  margin: 77px 0 0 0;
 	padding: 16px 0 0 0;
 	display: grid;
-  grid-template-columns: 1fr 46.3%;
+  grid-template-columns: 1fr 46.2%;
   grid-auto-rows: auto;
   grid-template-areas:
   'heading image'

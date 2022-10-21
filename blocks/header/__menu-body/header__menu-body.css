@@ -4,7 +4,7 @@
     top: 0;
     left: -100%;
     width: 100%;
-    height: 50%;
+    height: 70%;
     background-color: rgb(118, 139, 165);
     margin-top: 70px;
     transition: left .7s ease;
@@ -15,6 +15,12 @@
   .header:target .header__menu-body {
     left: 0;
     border-radius: 4%;
+  }
+}
+
+@media (max-width:425px){
+  .header__menu-body {
+    height: 100%;
   }
 }
 

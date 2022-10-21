@@ -5,3 +5,9 @@
   line-height: 1.6;
   margin: 0;
 }
+
+@media (max-width:768px){
+  .intro-quote__name {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (768 - 320)));
+  }
+}

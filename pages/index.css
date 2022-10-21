@@ -1,6 +1,5 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
-@import url('../blocks/link/link.css');
 
 @import url('../blocks/body/body.css');
 
@@ -8,11 +7,12 @@
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__item/header__item.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/header/__menu-body/header__menu-body.css');
-@import url('../blocks/header/__menu-burger/header__menu-burger.css');
-@import url('../blocks/header/__menu-burger/_close/header__menu-burger_close.css');
-@import url('../blocks/header/__menu-burger/_open/header__menu-burger_open.css');
+@import url('../blocks/header/__burger-open/header__burger-open.css');
+@import url('../blocks/header/__burger-close/header__burger-close.css');
+
 @import url('../blocks/header/__burger-span/header__burger-span.css');
 
 @import url('../blocks/content/content.css');
@@ -32,13 +32,20 @@
 @import url('../blocks/intro-quote/__profession/intro-quote__profession.css');
 @import url('../blocks/intro-quote/__text/intro-quote__text.css');
 
+@import url('../blocks/arrow-size/arrow-size.css');
 @import url('../blocks/slider-road/slider-road.css');
 @import url('../blocks/slider-road/__title/slider-road__title.css');
+@import url('../blocks/slider-road/__input/slider-road__input.css');
+@import url('../blocks/slider-road/__navigation/slider-road__navigation.css');
+@import url('../blocks/slider-road/__navigation/_top/slider-road__navigation_top.css');
+@import url('../blocks/slider-road/__navigation/_bottom/slider-road__navigation_bottom.css');
 @import url('../blocks/slider-road/__paragraph/slider-road__paragraph.css');
 @import url('../blocks/slider-road/__gallery/slider-road__gallery.css');
-@import url('../blocks/slider-road/__item/_number/slider-road__item_number_1.css');
-@import url('../blocks/slider-road/__item/_number/slider-road__item_number_2.css');
-@import url('../blocks/slider-road/__arrows/slider-road__arrows.css');
+@import url('../blocks/slider-road/__item/slider-road__item.css');
+@import url('../blocks/slider-road/__slide/slider-road__slide.css');
+@import url('../blocks/slider-road/__slide/_number/slider-road__slide_number_3.css');
+@import url('../blocks/slider-road/__slide/_number/slider-road__slide_number_4.css');
+
 @import url('../blocks/slider-road/__arrow/slider-road__arrow.css');
 
 @import url('../blocks/footer/footer.css');
@@ -48,5 +55,3 @@
 @import url('../blocks/form-subscription/form-subscription.css');
 @import url('../blocks/form-subscription/__title/form-subscription__title.css');
 @import url('../blocks/form-subscription/__input/form-subscription__input.css');
-
-

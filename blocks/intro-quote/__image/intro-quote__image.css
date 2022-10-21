@@ -1,6 +1,6 @@
 .intro-quote__image {
-  flex: 0 1 49.1%;
-  background: url('/../images/section-quote.jpg') 0 0/100% 100% no-repeat;
+  flex: 0 1 49.4%;
+  background: url('../../../images/section-quote.jpg') 0 0/100% 100% no-repeat;
   object-fit: cover;
   aspect-ratio: 650/460;
 }

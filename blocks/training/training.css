@@ -1,0 +1,21 @@
+.training {
+  padding: calc(150 / 1440 *100%) calc(120 / 1440 *100%) calc(120 / 1440 *100%);
+  display: grid;
+  gap: 0 calc(160 / 1200 *100%);
+  grid-template-columns: 1fr calc(580 / 1200 *100%);
+  grid-template-rows: min-content min-content 1fr;
+  grid-template-areas:
+  "title img"
+  "descr img "
+  "list img "
+  ;
+}
+
+@media screen and (max-width: 767px) {
+
+  .training {
+    padding: 40px 18px 60px;
+    display: block;
+  }
+
+}

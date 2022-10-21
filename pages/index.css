@@ -4,6 +4,10 @@
 
 @import url('../blocks/body/body.css');
 
+@import url('../blocks/section-title/section-title.css');
+
+
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/header/__menu/header__menu.css');
@@ -50,3 +54,9 @@
 @import url('../blocks/form-subscription/__input/form-subscription__input.css');
 
 
+@import url('../blocks/training/training.css');
+@import url('../blocks/training/__title/training__title.css');
+@import url('../blocks/training/__image/training__image.css');
+@import url('../blocks/training/__description/training__description.css');
+@import url('../blocks/training/__list/training__list.css');
+@import url('../blocks/training/__link/training__link.css');

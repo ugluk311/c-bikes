@@ -1,0 +1,26 @@
+.training__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151515;
+  text-decoration: none;
+  transition: opacity .4s ease;
+}
+
+.training__link:hover, .training__link:focus {
+  opacity: .7;
+}
+
+.training__link:active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+
+  .training__link {
+    font-size: 14px;
+    line-height: 20px
+  }
+
+}

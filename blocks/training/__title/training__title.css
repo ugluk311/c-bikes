@@ -1,0 +1,15 @@
+.training__title {
+  grid-area: title;
+  margin-bottom: 50px;
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .training__title {
+    margin-bottom: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #E3E3E3;
+  }
+
+}

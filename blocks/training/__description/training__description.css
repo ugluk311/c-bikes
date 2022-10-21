@@ -1,0 +1,22 @@
+.training__description {
+  margin: 0 0 40px;
+  grid-area: descr;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222;
+  opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .training__description {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 40px;
+  }
+
+}
